@@ -1,0 +1,998 @@
+# 3ds Max Wavefront OBJ Exporter v0.97b - (c)2007 guruware
+# File Created: 24.12.2017 17:35:23
+
+newmtl INT_cuciture
+	Ns 5.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.3000 0.3000 0.3000
+	Kd 0.2000 0.2000 0.2000
+	Ks 0.0100 0.0100 0.0100
+	Ke 0.0000 0.0000 0.0000
+	map_Ka CompositeTexturemap_Composite.tga
+	map_Kd CompositeTexturemap_Composite.tga
+	map_bump -bm 0.3000 Normal_Bump_Normal_Bump.tga
+
+newmtl INT_fabric_black
+	Ns 3.7500
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.3500 0.3500 0.3500
+	Kd 0.2500 0.2500 0.2500
+	Ks 0.0120 0.0120 0.0120
+	Ke 0.0000 0.0000 0.0000
+	map_Ka CompositeTexturemap_Composite.tga
+	map_Kd CompositeTexturemap_Composite.tga
+	map_bump -bm 0.3000 Normal_Bump_Normal_Bump.tga
+
+newmtl INT_leather_cust1
+	Ns 3.7500
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.3500 0.3500 0.3500
+	Kd 0.2500 0.2500 0.2500
+	Ks 0.0120 0.0120 0.0120
+	Ke 0.0000 0.0000 0.0000
+	map_Ka CompositeTexturemap_Composite.tga
+	map_Kd CompositeTexturemap_Composite.tga
+	map_bump -bm 0.3000 Normal_Bump_Normal_Bump.tga
+
+newmtl INT_leather_black2
+	Ns 2.5000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.2500 0.2500 0.2500
+	Kd 0.2000 0.2000 0.2000
+	Ks 0.0050 0.0050 0.0050
+	Ke 0.0000 0.0000 0.0000
+	map_Ka CompositeTexturemap_Composite.tga
+	map_Kd CompositeTexturemap_Composite.tga
+	map_bump -bm 0.3000 Normal_Bump_Normal_Bump.tga
+
+newmtl INT_leather_black
+	Ns 6.2500
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.3000 0.3000 0.3000
+	Kd 0.2000 0.2000 0.2000
+	Ks 0.0300 0.0300 0.0300
+	Ke 0.0000 0.0000 0.0000
+	map_Ka CompositeTexturemap_Composite.tga
+	map_Kd CompositeTexturemap_Composite.tga
+	map_bump -bm 0.3000 Normal_Bump_Normal_Bump.tga
+
+newmtl INT_plastic_black
+	Ns 5.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.3000 0.3000 0.3000
+	Kd 0.2500 0.2500 0.2500
+	Ks 0.0600 0.0600 0.0600
+	Ke 0.0000 0.0000 0.0000
+	map_Ka CompositeTexturemap_Composite.tga
+	map_Kd CompositeTexturemap_Composite.tga
+	map_bump -bm 0.3000 Normal_Bump_Normal_Bump.tga
+
+newmtl INT_plastic_blacksniny
+	Ns 37.5000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.3500 0.3500 0.3500
+	Kd 0.2100 0.2100 0.2100
+	Ks 0.2250 0.2250 0.2250
+	Ke 0.0000 0.0000 0.0000
+	map_Ka CompositeTexturemap_Composite.tga
+	map_Kd CompositeTexturemap_Composite.tga
+	map_bump -bm 0.3000 Normal_Bump_Normal_Bump.tga
+
+newmtl INT_detail_plastic
+	Ns 20.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.2500 0.2500 0.2500
+	Kd 0.2000 0.2000 0.2000
+	Ks 0.1200 0.1200 0.1200
+	Ke 0.0000 0.0000 0.0000
+	map_Ka G:\GameModels\Assetto Corsa\DLC_Bonus_Pack_3\Lamborghini_Huracan_Performante_2017\texture\INT_Details.dds
+	map_Kd G:\GameModels\Assetto Corsa\DLC_Bonus_Pack_3\Lamborghini_Huracan_Performante_2017\texture\INT_Details.dds
+	map_bump -bm 0.3000 Normal_Bump_Normal_Bump.tga
+
+newmtl INT_detail_text
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.2300 0.2300 0.2300
+	Kd 0.1700 0.1700 0.1700
+	Ks 0.0400 0.0400 0.0400
+	Ke 0.0000 0.0000 0.0000
+	map_Ka G:\GameModels\Assetto Corsa\DLC_Bonus_Pack_3\Lamborghini_Huracan_Performante_2017\texture\INT_Details.dds
+	map_Kd G:\GameModels\Assetto Corsa\DLC_Bonus_Pack_3\Lamborghini_Huracan_Performante_2017\texture\INT_Details.dds
+
+newmtl INT_composite
+	Ns 6.2500
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.3500 0.3500 0.3500
+	Kd 0.2300 0.2300 0.2300
+	Ks 0.0275 0.0275 0.0275
+	Ke 0.0000 0.0000 0.0000
+	map_Ka CompositeTexturemap_Composite.tga
+	map_Kd CompositeTexturemap_Composite.tga
+	map_bump -bm 0.3000 Normal_Bump_Normal_Bump.tga
+
+newmtl INT_DISPLAY_AT
+	Ns 0.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.0000 0.0000 0.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka G:\GameModels\Assetto Corsa\DLC_Bonus_Pack_3\Lamborghini_Huracan_Performante_2017\texture\INT_Display.dds
+	map_Kd G:\GameModels\Assetto Corsa\DLC_Bonus_Pack_3\Lamborghini_Huracan_Performante_2017\texture\INT_Display.dds
+	map_d G:\GameModels\Assetto Corsa\DLC_Bonus_Pack_3\Lamborghini_Huracan_Performante_2017\texture\INT_Display.dds
+
+newmtl INT_DISPLAY
+	Ns 0.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.0000 0.0000 0.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka G:\GameModels\Assetto Corsa\DLC_Bonus_Pack_3\Lamborghini_Huracan_Performante_2017\texture\INT_Display.dds
+	map_Kd G:\GameModels\Assetto Corsa\DLC_Bonus_Pack_3\Lamborghini_Huracan_Performante_2017\texture\INT_Display.dds
+	map_d G:\GameModels\Assetto Corsa\DLC_Bonus_Pack_3\Lamborghini_Huracan_Performante_2017\texture\INT_Display.dds
+
+newmtl INT_grid1
+	Ns 5.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.6000 0.6000 0.6000
+	Kd 0.4500 0.4500 0.4500
+	Ks 0.0200 0.0200 0.0200
+	Ke 0.0000 0.0000 0.0000
+	map_Ka CompositeTexturemap_Composite.tga
+	map_Kd CompositeTexturemap_Composite.tga
+	map_bump -bm 0.3000 Normal_Bump_Normal_Bump.tga
+
+newmtl INT_Carpaint
+	Ns 12.5000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.4500 0.4500 0.4500
+	Kd 0.5000 0.5000 0.5000
+	Ks 0.5000 0.5000 0.5000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka CompositeTexturemap_Composite.tga
+	map_Kd CompositeTexturemap_Composite.tga
+	map_bump -bm 0.3000 Normal_Bump_Normal_Bump.tga
+
+newmtl INT_Y
+	Ns 5.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.2600 0.2600 0.2600
+	Kd 0.2000 0.2000 0.2000
+	Ks 0.0100 0.0100 0.0100
+	Ke 0.0000 0.0000 0.0000
+	map_Ka CompositeTexturemap_Composite.tga
+	map_Kd CompositeTexturemap_Composite.tga
+	map_bump -bm 0.3000 Normal_Bump_Normal_Bump.tga
+
+newmtl INT_detail_chrome
+	Ns 62.5000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.2000 0.2000 0.2000
+	Kd 0.1000 0.1000 0.1000
+	Ks 5.0000 5.0000 5.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka G:\GameModels\Assetto Corsa\DLC_Bonus_Pack_3\Lamborghini_Huracan_Performante_2017\texture\INT_Details.dds
+	map_Kd G:\GameModels\Assetto Corsa\DLC_Bonus_Pack_3\Lamborghini_Huracan_Performante_2017\texture\INT_Details.dds
+	map_d G:\GameModels\Assetto Corsa\DLC_Bonus_Pack_3\Lamborghini_Huracan_Performante_2017\texture\INT_Details.dds
+	map_bump -bm 0.3000 Normal_Bump_Normal_Bump.tga
+
+newmtl INT_detail_metal
+	Ns 20.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.2000 0.2000 0.2000
+	Kd 0.1000 0.1000 0.1000
+	Ks 0.1600 0.1600 0.1600
+	Ke 0.0000 0.0000 0.0000
+	map_Ka G:\GameModels\Assetto Corsa\DLC_Bonus_Pack_3\Lamborghini_Huracan_Performante_2017\texture\INT_Details.dds
+	map_Kd G:\GameModels\Assetto Corsa\DLC_Bonus_Pack_3\Lamborghini_Huracan_Performante_2017\texture\INT_Details.dds
+	map_d G:\GameModels\Assetto Corsa\DLC_Bonus_Pack_3\Lamborghini_Huracan_Performante_2017\texture\INT_Details.dds
+	map_bump -bm 0.3000 Normal_Bump_Normal_Bump.tga
+
+newmtl INT_rubber
+	Ns 6.2500
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.3000 0.3000 0.3000
+	Kd 0.1500 0.1500 0.1500
+	Ks 0.0125 0.0125 0.0125
+	Ke 0.0000 0.0000 0.0000
+	map_Ka CompositeTexturemap_Composite.tga
+	map_Kd CompositeTexturemap_Composite.tga
+	map_bump -bm 0.3000 Normal_Bump_Normal_Bump.tga
+
+newmtl INT_metal_black
+	Ns 5.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.3000 0.3000 0.3000
+	Kd 0.3000 0.3000 0.3000
+	Ks 0.1200 0.1200 0.1200
+	Ke 0.0000 0.0000 0.0000
+	map_Ka CompositeTexturemap_Composite.tga
+	map_Kd CompositeTexturemap_Composite.tga
+	map_bump -bm 0.3000 Normal_Bump_Normal_Bump.tga
+
+newmtl INT_metal_chrome
+	Ns 5.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.1200 0.1200 0.1200
+	Kd 0.0800 0.0800 0.0800
+	Ks 0.0400 0.0400 0.0400
+	Ke 0.0000 0.0000 0.0000
+	map_Ka G:\GameModels\Assetto Corsa\DLC_Bonus_Pack_3\Lamborghini_Huracan_Performante_2017\texture\INT_OCC.dds
+	map_Kd G:\GameModels\Assetto Corsa\DLC_Bonus_Pack_3\Lamborghini_Huracan_Performante_2017\texture\INT_OCC.dds
+	map_bump -bm 0.3000 Normal_Bump_Normal_Bump.tga
+
+newmtl INT_metal_red
+	Ns 12.5000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.3000 0.3000 0.3000
+	Kd 0.2500 0.2500 0.2500
+	Ks 0.4500 0.4500 0.4500
+	Ke 0.0000 0.0000 0.0000
+	map_Ka CompositeTexturemap_Composite.tga
+	map_Kd CompositeTexturemap_Composite.tga
+	map_bump -bm 0.3000 Normal_Bump_Normal_Bump.tga
+
+newmtl INT_plastic_red
+	Ns 5.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.3000 0.3000 0.3000
+	Kd 0.2500 0.2500 0.2500
+	Ks 0.0400 0.0400 0.0400
+	Ke 0.0000 0.0000 0.0000
+	map_Ka CompositeTexturemap_Composite.tga
+	map_Kd CompositeTexturemap_Composite.tga
+	map_bump -bm 0.3000 Normal_Bump_Normal_Bump.tga
+
+newmtl EXT_MIRROR
+	Ns 62.5000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.1000 0.1000 0.1000
+	Kd 0.1000 0.1000 0.1000
+	Ks 0.2500 0.2500 0.2500
+	Ke 0.0000 0.0000 0.0000
+	map_Ka G:\GameModels\Assetto Corsa\DLC_Bonus_Pack_3\Lamborghini_Huracan_Performante_2017\texture\Mirror.DDS
+	map_Kd G:\GameModels\Assetto Corsa\DLC_Bonus_Pack_3\Lamborghini_Huracan_Performante_2017\texture\Mirror.DDS
+	map_d G:\GameModels\Assetto Corsa\DLC_Bonus_Pack_3\Lamborghini_Huracan_Performante_2017\texture\Mirror.DDS
+
+newmtl INT_detail_pedals_metal
+	Ns 25.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.2000 0.2000 0.2000
+	Kd 0.1000 0.1000 0.1000
+	Ks 0.6000 0.6000 0.6000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka G:\GameModels\Assetto Corsa\DLC_Bonus_Pack_3\Lamborghini_Huracan_Performante_2017\texture\INT_pedals.dds
+	map_Kd G:\GameModels\Assetto Corsa\DLC_Bonus_Pack_3\Lamborghini_Huracan_Performante_2017\texture\INT_pedals.dds
+	map_bump -bm 0.3000 Normal_Bump_Normal_Bump.tga
+
+newmtl INT_detail_logo
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.2000 0.2000 0.2000
+	Kd 0.1800 0.1800 0.1800
+	Ks 0.0400 0.0400 0.0400
+	Ke 0.0000 0.0000 0.0000
+	map_Ka CompositeTexturemap_Composite.tga
+	map_Kd CompositeTexturemap_Composite.tga
+	map_bump -bm 0.3000 Normal_Bump_Normal_Bump.tga
+
+newmtl INT_carbon
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.3500 0.3500 0.3500
+	Kd 0.4500 0.4500 0.4500
+	Ks 0.1600 0.1600 0.1600
+	Ke 0.0000 0.0000 0.0000
+	map_Ka CompositeTexturemap_Composite.tga
+	map_Kd CompositeTexturemap_Composite.tga
+	map_bump -bm 0.3000 Normal_Bump_Normal_Bump.tga
+
+newmtl INT_cinture_cinture
+	Ns 2.5000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.1500 0.1500 0.1500
+	Kd 0.1000 0.1000 0.1000
+	Ks 0.0050 0.0050 0.0050
+	Ke 0.0000 0.0000 0.0000
+	map_Ka G:\GameModels\Assetto Corsa\DLC_Bonus_Pack_3\Lamborghini_Huracan_Performante_2017\texture\cinture.dds
+	map_Kd G:\GameModels\Assetto Corsa\DLC_Bonus_Pack_3\Lamborghini_Huracan_Performante_2017\texture\cinture.dds
+	map_d G:\GameModels\Assetto Corsa\DLC_Bonus_Pack_3\Lamborghini_Huracan_Performante_2017\texture\cinture.dds
+	map_bump -bm 0.3000 Normal_Bump_Normal_Bump.tga
+
+newmtl INT_cinture_chrome
+	Ns 5.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.1000 0.1000 0.1000
+	Kd 0.0500 0.0500 0.0500
+	Ks 0.0400 0.0400 0.0400
+	Ke 0.0000 0.0000 0.0000
+	map_Ka G:\GameModels\Assetto Corsa\DLC_Bonus_Pack_3\Lamborghini_Huracan_Performante_2017\texture\INT_Details.dds
+	map_Kd G:\GameModels\Assetto Corsa\DLC_Bonus_Pack_3\Lamborghini_Huracan_Performante_2017\texture\INT_Details.dds
+	map_bump -bm 0.3000 Normal_Bump_Normal_Bump.tga
+
+newmtl INT_cinture_plastic
+	Ns 5.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.1000 0.1000 0.1000
+	Kd 0.1500 0.1500 0.1500
+	Ks 0.0100 0.0100 0.0100
+	Ke 0.0000 0.0000 0.0000
+	map_Ka G:\GameModels\Assetto Corsa\DLC_Bonus_Pack_3\Lamborghini_Huracan_Performante_2017\texture\INT_Details.dds
+	map_Kd G:\GameModels\Assetto Corsa\DLC_Bonus_Pack_3\Lamborghini_Huracan_Performante_2017\texture\INT_Details.dds
+
+newmtl EXT_glass
+	Ns 212.5000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.2000 0.2000 0.2000
+	Kd 0.2000 0.2000 0.2000
+	Ks 17.0000 17.0000 17.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka G:\GameModels\Assetto Corsa\DLC_Bonus_Pack_3\Lamborghini_Huracan_Performante_2017\texture\EXT_Glass.dds
+	map_Kd G:\GameModels\Assetto Corsa\DLC_Bonus_Pack_3\Lamborghini_Huracan_Performante_2017\texture\EXT_Glass.dds
+	map_d G:\GameModels\Assetto Corsa\DLC_Bonus_Pack_3\Lamborghini_Huracan_Performante_2017\texture\EXT_Glass.dds
+
+newmtl EXT_Stripe
+	Ns 25.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.4500 0.4500 0.4500
+	Kd 0.5000 0.5000 0.5000
+	Ks 0.6000 0.6000 0.6000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka G:\GameModels\Assetto Corsa\DLC_Bonus_Pack_3\Lamborghini_Huracan_Performante_2017\texture\EXT_Stripe.dds
+	map_Kd G:\GameModels\Assetto Corsa\DLC_Bonus_Pack_3\Lamborghini_Huracan_Performante_2017\texture\EXT_Stripe.dds
+	map_d G:\GameModels\Assetto Corsa\DLC_Bonus_Pack_3\Lamborghini_Huracan_Performante_2017\texture\EXT_Stripe.dds
+
+newmtl EXT_MECHANICS_Bottom
+	Ns 15.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.2000 0.2000 0.2000
+	Kd 0.1500 0.1500 0.1500
+	Ks 0.0300 0.0300 0.0300
+	Ke 0.0000 0.0000 0.0000
+	map_Ka G:\GameModels\Assetto Corsa\DLC_Bonus_Pack_3\Lamborghini_Huracan_Performante_2017\texture\mechanics_D.dds
+	map_Kd G:\GameModels\Assetto Corsa\DLC_Bonus_Pack_3\Lamborghini_Huracan_Performante_2017\texture\mechanics_D.dds
+	map_d G:\GameModels\Assetto Corsa\DLC_Bonus_Pack_3\Lamborghini_Huracan_Performante_2017\texture\mechanics_D.dds
+
+newmtl EXT_MECHANICS_Rubber
+	Ns 6.2500
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.1000 0.1000 0.1000
+	Kd 0.0500 0.0500 0.0500
+	Ks 0.0075 0.0075 0.0075
+	Ke 0.0000 0.0000 0.0000
+	map_Ka G:\GameModels\Assetto Corsa\DLC_Bonus_Pack_3\Lamborghini_Huracan_Performante_2017\texture\mechanics_D.dds
+	map_Kd G:\GameModels\Assetto Corsa\DLC_Bonus_Pack_3\Lamborghini_Huracan_Performante_2017\texture\mechanics_D.dds
+	map_d G:\GameModels\Assetto Corsa\DLC_Bonus_Pack_3\Lamborghini_Huracan_Performante_2017\texture\mechanics_D.dds
+
+newmtl EXT_Grid
+	Ns 16.2500
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.3000 0.3000 0.3000
+	Kd 0.2000 0.2000 0.2000
+	Ks 0.0975 0.0975 0.0975
+	Ke 0.0000 0.0000 0.0000
+	map_Ka G:\GameModels\Assetto Corsa\DLC_Bonus_Pack_3\Lamborghini_Huracan_Performante_2017\texture\GRID.dds
+	map_Kd G:\GameModels\Assetto Corsa\DLC_Bonus_Pack_3\Lamborghini_Huracan_Performante_2017\texture\GRID.dds
+	map_d G:\GameModels\Assetto Corsa\DLC_Bonus_Pack_3\Lamborghini_Huracan_Performante_2017\texture\GRID.dds
+	map_bump -bm 0.3000 Normal_Bump_Normal_Bump.tga
+
+newmtl EXT_Logos
+	Ns 12.5000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.3500 0.3500 0.3500
+	Kd 0.2000 0.2000 0.2000
+	Ks 0.1500 0.1500 0.1500
+	Ke 0.0000 0.0000 0.0000
+	map_Ka G:\GameModels\Assetto Corsa\DLC_Bonus_Pack_3\Lamborghini_Huracan_Performante_2017\texture\EXT_detail.dds
+	map_Kd G:\GameModels\Assetto Corsa\DLC_Bonus_Pack_3\Lamborghini_Huracan_Performante_2017\texture\EXT_detail.dds
+	map_d G:\GameModels\Assetto Corsa\DLC_Bonus_Pack_3\Lamborghini_Huracan_Performante_2017\texture\EXT_detail.dds
+	map_bump -bm 0.3000 Normal_Bump_Normal_Bump.tga
+
+newmtl EXT_mechanics_manifold
+	Ns 25.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.3000 0.3000 0.3000
+	Kd 0.2500 0.2500 0.2500
+	Ks 0.2500 0.2500 0.2500
+	Ke 0.0000 0.0000 0.0000
+	map_Ka CompositeTexturemap_Composite.tga
+	map_Kd CompositeTexturemap_Composite.tga
+	map_bump -bm 0.3000 Normal_Bump_Normal_Bump.tga
+
+newmtl EXT_Plastic
+	Ns 15.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.4500 0.4500 0.4500
+	Kd 0.4000 0.4000 0.4000
+	Ks 0.1200 0.1200 0.1200
+	Ke 0.0000 0.0000 0.0000
+	map_Ka CompositeTexturemap_Composite.tga
+	map_Kd CompositeTexturemap_Composite.tga
+	map_bump -bm 0.3000 Normal_Bump_Normal_Bump.tga
+
+newmtl EXT_Carpaint
+	Ns 25.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.4500 0.4500 0.4500
+	Kd 0.5000 0.5000 0.5000
+	Ks 0.6000 0.6000 0.6000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka CompositeTexturemap_Composite.tga
+	map_Kd CompositeTexturemap_Composite.tga
+	map_bump -bm 0.3000 Normal_Bump_Normal_Bump.tga
+
+newmtl EXT_Mechanics_comp
+	Ns 25.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.1500 0.1500 0.1500
+	Kd 0.1000 0.1000 0.1000
+	Ks 0.5000 0.5000 0.5000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka CompositeTexturemap_Composite.tga
+	map_Kd CompositeTexturemap_Composite.tga
+	map_bump -bm 0.3000 Normal_Bump_Normal_Bump.tga
+
+newmtl EXT_LIGHT_PLASTIC
+	Ns 5.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.4500 0.4500 0.4500
+	Kd 0.3800 0.3800 0.3800
+	Ks 0.0400 0.0400 0.0400
+	Ke 0.0000 0.0000 0.0000
+	map_Ka CompositeTexturemap_Composite.tga
+	map_Kd CompositeTexturemap_Composite.tga
+	map_bump -bm 0.3000 Normal_Bump_Normal_Bump.tga
+
+newmtl EXT_MECHANICS_Plastic2
+	Ns 25.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.3000 0.3000 0.3000
+	Kd 0.2500 0.2500 0.2500
+	Ks 0.1500 0.1500 0.1500
+	Ke 0.0000 0.0000 0.0000
+	map_Ka CompositeTexturemap_Composite.tga
+	map_Kd CompositeTexturemap_Composite.tga
+	map_bump -bm 0.3000 Normal_Bump_Normal_Bump.tga
+
+newmtl EXT_MECHANICS_CHROME
+	Ns 5.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.1000 0.1000 0.1000
+	Kd 0.1000 0.1000 0.1000
+	Ks 0.0400 0.0400 0.0400
+	Ke 0.0000 0.0000 0.0000
+	map_Ka G:\GameModels\Assetto Corsa\DLC_Bonus_Pack_3\Lamborghini_Huracan_Performante_2017\texture\mechanics_D.dds
+	map_Kd G:\GameModels\Assetto Corsa\DLC_Bonus_Pack_3\Lamborghini_Huracan_Performante_2017\texture\mechanics_D.dds
+	map_bump -bm 0.3000 Normal_Bump_Normal_Bump.tga
+
+newmtl EXT_MECHANICS_Metal_Black
+	Ns 25.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.2000 0.2000 0.2000
+	Kd 0.1500 0.1500 0.1500
+	Ks 0.1500 0.1500 0.1500
+	Ke 0.0000 0.0000 0.0000
+	map_Ka CompositeTexturemap_Composite.tga
+	map_Kd CompositeTexturemap_Composite.tga
+	map_bump -bm 0.3000 Normal_Bump_Normal_Bump.tga
+
+newmtl EXT_MECHANICS_METAL
+	Ns 25.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.2000 0.2000 0.2000
+	Kd 0.1500 0.1500 0.1500
+	Ks 0.1500 0.1500 0.1500
+	Ke 0.0000 0.0000 0.0000
+	map_Ka G:\GameModels\Assetto Corsa\DLC_Bonus_Pack_3\Lamborghini_Huracan_Performante_2017\texture\mechanics_D.dds
+	map_Kd G:\GameModels\Assetto Corsa\DLC_Bonus_Pack_3\Lamborghini_Huracan_Performante_2017\texture\mechanics_D.dds
+	map_bump -bm 0.3000 Normal_Bump_Normal_Bump.tga
+
+newmtl EXT_Grid_metal
+	Ns 12.5000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.1700 0.1700 0.1700
+	Kd 0.1700 0.1700 0.1700
+	Ks 0.1000 0.1000 0.1000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka G:\GameModels\Assetto Corsa\DLC_Bonus_Pack_3\Lamborghini_Huracan_Performante_2017\texture\grid_metal.dds
+	map_Kd G:\GameModels\Assetto Corsa\DLC_Bonus_Pack_3\Lamborghini_Huracan_Performante_2017\texture\grid_metal.dds
+	map_bump -bm 0.3000 Normal_Bump_Normal_Bump.tga
+
+newmtl EXT_LOGOS_BRUSHED_METAL
+	Ns 38.7500
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.1000 0.1000 0.1000
+	Kd 0.0500 0.0500 0.0500
+	Ks 0.3100 0.3100 0.3100
+	Ke 0.0000 0.0000 0.0000
+	map_Ka G:\GameModels\Assetto Corsa\DLC_Bonus_Pack_3\Lamborghini_Huracan_Performante_2017\texture\EXT_detail.dds
+	map_Kd G:\GameModels\Assetto Corsa\DLC_Bonus_Pack_3\Lamborghini_Huracan_Performante_2017\texture\EXT_detail.dds
+	map_bump -bm 0.3000 Normal_Bump_Normal_Bump.tga
+
+newmtl EXT_glass_black
+	Ns 212.5000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0050 0.0050 0.0050
+	Kd 0.0050 0.0050 0.0050
+	Ks 2.5500 2.5500 2.5500
+	Ke 0.0000 0.0000 0.0000
+	map_Ka G:\GameModels\Assetto Corsa\DLC_Bonus_Pack_3\Lamborghini_Huracan_Performante_2017\texture\EXT_Glass.dds
+	map_Kd G:\GameModels\Assetto Corsa\DLC_Bonus_Pack_3\Lamborghini_Huracan_Performante_2017\texture\EXT_Glass.dds
+	map_d G:\GameModels\Assetto Corsa\DLC_Bonus_Pack_3\Lamborghini_Huracan_Performante_2017\texture\EXT_Glass.dds
+
+newmtl EXT_glass_lights
+	Ns 212.5000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.2000 0.2000 0.2000
+	Kd 0.2000 0.2000 0.2000
+	Ks 17.0000 17.0000 17.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka G:\GameModels\Assetto Corsa\DLC_Bonus_Pack_3\Lamborghini_Huracan_Performante_2017\texture\EXT_Glass.dds
+	map_Kd G:\GameModels\Assetto Corsa\DLC_Bonus_Pack_3\Lamborghini_Huracan_Performante_2017\texture\EXT_Glass.dds
+	map_d G:\GameModels\Assetto Corsa\DLC_Bonus_Pack_3\Lamborghini_Huracan_Performante_2017\texture\EXT_Glass.dds
+
+newmtl EXT_WHEEL
+	Ns 6.2500
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.2500 0.2500 0.2500
+	Kd 0.2200 0.2200 0.2200
+	Ks 0.0500 0.0500 0.0500
+	Ke 0.0000 0.0000 0.0000
+	map_Ka G:\GameModels\Assetto Corsa\DLC_Bonus_Pack_3\Lamborghini_Huracan_Performante_2017\texture\Tyre_D.dds
+	map_Kd G:\GameModels\Assetto Corsa\DLC_Bonus_Pack_3\Lamborghini_Huracan_Performante_2017\texture\Tyre_D.dds
+	map_bump -bm 0.3000 Normal_Bump_Normal_Bump.tga
+
+newmtl EXT_RIM
+	Ns 7.5000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.3500 0.3500 0.3500
+	Kd 0.3000 0.3000 0.3000
+	Ks 0.0450 0.0450 0.0450
+	Ke 0.0000 0.0000 0.0000
+	map_Ka CompositeTexturemap_Composite.tga
+	map_Kd CompositeTexturemap_Composite.tga
+	map_bump -bm 0.3000 Normal_Bump_Normal_Bump.tga
+
+newmtl EXT_Detail
+	Ns 12.5000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.3000 0.3000 0.3000
+	Kd 0.2000 0.2000 0.2000
+	Ks 0.1500 0.1500 0.1500
+	Ke 0.0000 0.0000 0.0000
+	map_Ka G:\GameModels\Assetto Corsa\DLC_Bonus_Pack_3\Lamborghini_Huracan_Performante_2017\texture\EXT_detail.dds
+	map_Kd G:\GameModels\Assetto Corsa\DLC_Bonus_Pack_3\Lamborghini_Huracan_Performante_2017\texture\EXT_detail.dds
+	map_d G:\GameModels\Assetto Corsa\DLC_Bonus_Pack_3\Lamborghini_Huracan_Performante_2017\texture\EXT_detail.dds
+	map_bump -bm 0.3000 Normal_Bump_Normal_Bump.tga
+
+newmtl EXT_RIM_SPOKES
+	Ns 7.5000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.3500 0.3500 0.3500
+	Kd 0.3000 0.3000 0.3000
+	Ks 0.0450 0.0450 0.0450
+	Ke 0.0000 0.0000 0.0000
+	map_Ka G:\GameModels\Assetto Corsa\DLC_Bonus_Pack_3\Lamborghini_Huracan_Performante_2017\texture\rim_detail.dds
+	map_Kd G:\GameModels\Assetto Corsa\DLC_Bonus_Pack_3\Lamborghini_Huracan_Performante_2017\texture\rim_detail.dds
+	map_d G:\GameModels\Assetto Corsa\DLC_Bonus_Pack_3\Lamborghini_Huracan_Performante_2017\texture\rim_detail.dds
+	map_bump -bm 0.3000 Normal_Bump_Normal_Bump.tga
+
+newmtl EXT_Caliper_Detail
+	Ns 20.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.2200 0.2200 0.2200
+	Kd 0.1500 0.1500 0.1500
+	Ks 0.0800 0.0800 0.0800
+	Ke 0.0000 0.0000 0.0000
+	map_Ka G:\GameModels\Assetto Corsa\DLC_Bonus_Pack_3\Lamborghini_Huracan_Performante_2017\texture\Caliper.dds
+	map_Kd G:\GameModels\Assetto Corsa\DLC_Bonus_Pack_3\Lamborghini_Huracan_Performante_2017\texture\Caliper.dds
+	map_d G:\GameModels\Assetto Corsa\DLC_Bonus_Pack_3\Lamborghini_Huracan_Performante_2017\texture\Caliper.dds
+
+newmtl EXT_Caliper
+	Ns 20.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.2300 0.2300 0.2300
+	Kd 0.1500 0.1500 0.1500
+	Ks 0.1600 0.1600 0.1600
+	Ke 0.0000 0.0000 0.0000
+	map_Ka CompositeTexturemap_Composite.tga
+	map_Kd CompositeTexturemap_Composite.tga
+	map_bump -bm 0.3000 Normal_Bump_Normal_Bump.tga
+
+newmtl EXT_BRAKEDISC
+	Ns 30.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.2000 0.2000 0.2000
+	Kd 0.2000 0.2000 0.2000
+	Ks 0.6000 0.6000 0.6000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka G:\GameModels\Assetto Corsa\DLC_Bonus_Pack_3\Lamborghini_Huracan_Performante_2017\texture\Brake_Disk.dds
+	map_Kd G:\GameModels\Assetto Corsa\DLC_Bonus_Pack_3\Lamborghini_Huracan_Performante_2017\texture\Brake_Disk.dds
+	map_bump -bm 0.3000 Normal_Bump_Normal_Bump.tga
+
+newmtl EXT_FORGED_COMPOSITE
+	Ns 25.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.2800 0.2800 0.2800
+	Kd 0.2000 0.2000 0.2000
+	Ks 0.4000 0.4000 0.4000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka CompositeTexturemap_Composite.tga
+	map_Kd CompositeTexturemap_Composite.tga
+	map_bump -bm 0.3000 Normal_Bump_Normal_Bump.tga
+
+newmtl EXT_MECHANICS_Plastic
+	Ns 17.5000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.2500 0.2500 0.2500
+	Kd 0.2000 0.2000 0.2000
+	Ks 0.0700 0.0700 0.0700
+	Ke 0.0000 0.0000 0.0000
+	map_Ka G:\GameModels\Assetto Corsa\DLC_Bonus_Pack_3\Lamborghini_Huracan_Performante_2017\texture\mechanics_D.dds
+	map_Kd G:\GameModels\Assetto Corsa\DLC_Bonus_Pack_3\Lamborghini_Huracan_Performante_2017\texture\mechanics_D.dds
+	map_bump -bm 0.3000 Normal_Bump_Normal_Bump.tga
+
+newmtl EXT_PLATE
+	Ns 7.5000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.2500 0.2500 0.2500
+	Kd 0.2000 0.2000 0.2000
+	Ks 0.0900 0.0900 0.0900
+	Ke 0.0000 0.0000 0.0000
+	map_Ka G:\GameModels\Assetto Corsa\DLC_Bonus_Pack_3\Lamborghini_Huracan_Performante_2017\texture\Plate_D.dds
+	map_Kd G:\GameModels\Assetto Corsa\DLC_Bonus_Pack_3\Lamborghini_Huracan_Performante_2017\texture\Plate_D.dds
+	map_d G:\GameModels\Assetto Corsa\DLC_Bonus_Pack_3\Lamborghini_Huracan_Performante_2017\texture\Plate_D.dds
+	map_bump -bm 0.3000 Normal_Bump_Normal_Bump.tga
+
+newmtl EXT_REAR_Light
+	Ns 25.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.4000 0.4000 0.4000
+	Kd 0.3200 0.3200 0.3200
+	Ks 0.2000 0.2000 0.2000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka G:\GameModels\Assetto Corsa\DLC_Bonus_Pack_3\Lamborghini_Huracan_Performante_2017\texture\Lights.dds
+	map_Kd G:\GameModels\Assetto Corsa\DLC_Bonus_Pack_3\Lamborghini_Huracan_Performante_2017\texture\Lights.dds
+	map_bump -bm 0.3000 Normal_Bump_Normal_Bump.tga
+
+newmtl EXT_FRONT_Light
+	Ns 25.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.2200 0.2200 0.2200
+	Kd 0.1500 0.1500 0.1500
+	Ks 0.1000 0.1000 0.1000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka G:\GameModels\Assetto Corsa\DLC_Bonus_Pack_3\Lamborghini_Huracan_Performante_2017\texture\Lights.dds
+	map_Kd G:\GameModels\Assetto Corsa\DLC_Bonus_Pack_3\Lamborghini_Huracan_Performante_2017\texture\Lights.dds
+	map_bump -bm 0.3000 Normal_Bump_Normal_Bump.tga
+
+newmtl INT_custom_lr
+	Ns 3.7500
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.3500 0.3500 0.3500
+	Kd 0.2500 0.2500 0.2500
+	Ks 0.0150 0.0150 0.0150
+	Ke 0.0000 0.0000 0.0000
+	map_Ka CompositeTexturemap_Composite.tga
+	map_Kd CompositeTexturemap_Composite.tga
+	map_bump -bm 0.3000 Normal_Bump_Normal_Bump.tga
+
+newmtl INT_cockpit_lr
+	Ns 3.7500
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.3500 0.3500 0.3500
+	Kd 0.2500 0.2500 0.2500
+	Ks 0.0150 0.0150 0.0150
+	Ke 0.0000 0.0000 0.0000
+	map_Ka CompositeTexturemap_Composite.tga
+	map_Kd CompositeTexturemap_Composite.tga
+	map_bump -bm 0.3000 Normal_Bump_Normal_Bump.tga
+
+newmtl EXT_Logo_Perf
+	Ns 15.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.4000 0.4000 0.4000
+	Kd 0.3500 0.3500 0.3500
+	Ks 0.1200 0.1200 0.1200
+	Ke 0.0000 0.0000 0.0000
+	map_Ka G:\GameModels\Assetto Corsa\DLC_Bonus_Pack_3\Lamborghini_Huracan_Performante_2017\texture\EXT_Logo_Perf.dds
+	map_Kd G:\GameModels\Assetto Corsa\DLC_Bonus_Pack_3\Lamborghini_Huracan_Performante_2017\texture\EXT_Logo_Perf.dds
+	map_d G:\GameModels\Assetto Corsa\DLC_Bonus_Pack_3\Lamborghini_Huracan_Performante_2017\texture\EXT_Logo_Perf.dds
+
+newmtl INT_Windows
+	Ns 2.5000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.4500 0.4500 0.4500
+	Kd 0.4500 0.4500 0.4500
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka G:\GameModels\Assetto Corsa\DLC_Bonus_Pack_3\Lamborghini_Huracan_Performante_2017\texture\INT_Glass.dds
+	map_Kd G:\GameModels\Assetto Corsa\DLC_Bonus_Pack_3\Lamborghini_Huracan_Performante_2017\texture\INT_Glass.dds
+	map_d G:\GameModels\Assetto Corsa\DLC_Bonus_Pack_3\Lamborghini_Huracan_Performante_2017\texture\INT_Glass.dds
+
+newmtl EXT_Damage_glass
+	Ns 25.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.3000 0.3000 0.3000
+	Kd 0.4000 0.4000 0.4000
+	Ks 1.0000 1.0000 1.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka G:\GameModels\Assetto Corsa\DLC_Bonus_Pack_3\Lamborghini_Huracan_Performante_2017\texture\DAMAGE_GLASS_color.dds
+	map_Kd G:\GameModels\Assetto Corsa\DLC_Bonus_Pack_3\Lamborghini_Huracan_Performante_2017\texture\DAMAGE_GLASS_color.dds
+	map_bump -bm 0.3000 Normal_Bump_Normal_Bump.tga
+
+newmtl INT_Windows_Black
+	Ns 212.5000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0050 0.0050 0.0050
+	Kd 0.0050 0.0050 0.0050
+	Ks 2.5500 2.5500 2.5500
+	Ke 0.0000 0.0000 0.0000
+	map_Ka G:\GameModels\Assetto Corsa\DLC_Bonus_Pack_3\Lamborghini_Huracan_Performante_2017\texture\INT_Glass.dds
+	map_Kd G:\GameModels\Assetto Corsa\DLC_Bonus_Pack_3\Lamborghini_Huracan_Performante_2017\texture\INT_Glass.dds
+	map_d G:\GameModels\Assetto Corsa\DLC_Bonus_Pack_3\Lamborghini_Huracan_Performante_2017\texture\INT_Glass.dds
